@@ -1,0 +1,19 @@
+.caja{
+    width: 60%;
+}
+button{
+    justify-content: center;
+    
+}
+.productos{
+    width: 40%;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+}
+button img{
+    width: 110px;
+    height: 110px;
+    
+}

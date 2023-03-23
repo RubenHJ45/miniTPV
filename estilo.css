@@ -1,0 +1,270 @@
+/* @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #191c32;
+  color: aqua;
+  text-align: center;
+}
+.cant{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenedor {
+  width: 60%;
+  margin-right: 10px;
+  height: auto;
+  display: flex;
+  border-radius: 10px;
+  border: solid 2px aqua;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  margin: 20px;
+}
+
+.menu button {
+  width: 300px;
+  height: 300px;
+  margin: 50px;
+  border-radius: 10px;
+  background-color: aqua;
+  cursor: pointer;
+  color: #191c32;
+  font-size: 1em;
+}
+
+.menu button:hover {
+  background-color: red;
+  color: white;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 2em;
+  color: #fff;
+}
+
+
+.menu a, button {
+  background-color: black;
+  color: white;
+  margin:10px;
+  border: 2px solid aqua;
+  border-radius: 7px;
+}
+
+button img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.cantidad {
+  /* color: greenyellow; */
+  width: 27%;
+  height: auto;
+  padding: 10px;
+  text-align: justify;
+  border: solid 2px aqua;
+  border-radius: 10px;
+  font-size: 1.3em;
+}
+/* .deben {
+  margin:0px 10px;
+  width: 20%;
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+  border: solid 2px aqua;
+  border-radius: 10px;
+  
+} */
+
+#borrar{
+  color: red;
+  height: 40px;
+ margin: 10px;
+  width: auto;
+  padding: 10px;
+  background-color: black;
+}
+.total {
+  margin-left: 10px;
+  padding: 10px;  
+  width: 15%;
+  height: auto;
+  border: solid 2px aqua;
+  border-radius: 10px;
+  text-align: center;
+}
+.inp{
+  width: 220px;
+  height: 40px;
+  font-size: 1.9em;
+  color: aqua;
+  margin: 20px;
+}
+
+.usu{
+  border: solid 2px aqua;
+  border-radius: 7px;
+  width: 40%;
+  height: auto;
+}
+
+.conten {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.botones{
+    text-align: justify;
+    width: 100%;
+}
+
+.save button{
+    padding: 10px;
+    width: 90px;
+}
+.tot{
+  color: greenyellow;
+  font-size: 4em;
+  
+}
+
+.nombres{
+  border: solid 1px aqua;
+  height: 70px;
+  display: flex;
+  width: 99%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+  justify-content: center;
+  
+}
+.nombre{
+  font-size: 2em;
+  color: aqua;
+}
+input{
+  width: 290px;
+  background-color: #191c32;
+  border: solid 1px aqua;
+  border-radius: 7px;
+  
+}
+.clientes{
+  display: flex;
+  border: solid 2px aqua;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+.nom{
+  color: yellow;
+  font-size: 1.7em;
+ 
+}
+/* .opciones{
+  width:160px;
+  height: 40px;
+  font-size: 25px;
+  color: aqua;
+} */
+
+.importe{
+  font-size: 1.9em;
+  color: greenyellow;
+}
+
+.insertar, .opciones{
+  width:160px;
+  height: 40px;
+  font-size: 1.2em;
+  color: aqua;
+  background-color: black;
+}
+/* #des{
+  width:180px;
+  height: 40px;
+  font-size: 25px;
+  color: aqua;
+} */
+
+.suma_total{
+  color: darkorange;
+  border: solid 2px darkorange;
+  border-radius: 7px;
+  width: 150px; 
+  height: 80px;
+}
+.sumTo{
+  border: 2px solid aqua;
+  border-radius: 7px;
+  width: 220px;  
+  height: 230px;
+  padding: 20px;
+}
+#sum{
+  width: 80px;
+  color: aqua;
+}
+.fecha{
+  width: 160px;
+  height: 30px;
+  color: aqua;
+}
+.contenVentas table{
+  border: 2px solid aqua;
+  border-radius: 7px;
+  width: 800px;
+  height: 150px;
+  align-items: center;
+  margin-left: 250px;
+}
+.ventaTo{
+  width: 140px;
+}
+.botBo{
+  width: 70px;
+}
+
+.editar{
+  width:80px;
+  height: 40px;
+  font-size: 0.8em;
+  color: goldenrod;
+  background-color: black; 
+}
+.act{
+  margin-top:100px ;
+  color: gold;
+  width: 250px;
+  font-size: 2em;
+  padding: 10px;
+  background-color: rgb(51, 49, 49);
+}
+.act1{
+  margin-top:100px ;
+  color: gold;
+  width: 250px;
+  font-size: 2em;
+  padding: 10px;
+  background-color: black;
+}
